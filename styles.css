@@ -1,0 +1,351 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('cinema-background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #333333; /* Gris .opciones-container button:hover {
+    background-color: #ffd700;
+    color: #000000;
+    transform: scale(1.02);
+}
+
+/* Estilos para los mensajes de respuesta */
+.mensaje-respuesta {
+    max-width: 600px;
+    margin: 1rem auto;
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.mensaje-correcto {
+    background-color: #d4edda;
+    color: #155724;
+    border: 2px solid #28a745;
+}
+
+.mensaje-incorrecto {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 2px solid #dc3545;
+}
+
+/* Estilos para el contenedor de imágenes */
+.imagen-info-container {
+    max-width: 600px;
+    margin: 1rem auto;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.imagen-respuesta {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.imagen-respuesta:hover {
+    transform: scale(1.05);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333333; 
+    text-align: center;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #000000;
+    color: #ffd700; 
+    padding: 0.5rem;
+    text-align: center;
+    width: 100%;
+}
+
+header h1 {
+    margin: 0;
+    font-size: clamp(1.2rem, 3vw, 1.8rem);
+    text-align: center;
+    padding: 0.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+header h1 svg {
+    fill: #ffd700; 
+    width: clamp(30px, 6vw, 45px);
+    height: clamp(30px, 6vw, 45px);
+    flex-shrink: 0;
+}
+
+main {
+    padding: 1rem 0.5rem;
+    text-align: center;
+    width: 100%;
+    min-height: calc(100vh - 120px); 
+}
+
+main p {
+    font-size: clamp(0.9rem, 2vw, 1.1rem);
+    margin: 1rem auto 0.5rem auto;
+    text-align: center;
+    max-width: 800px;
+    padding: 0 1rem;
+}
+
+button {
+    background-color: #ffd700;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    padding: 0.75rem 1.5rem;
+    font-size: clamp(0.9rem, 2vw, 1rem);
+    cursor: pointer;
+    margin-top: 1rem;
+    margin-bottom: 1rem; 
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background-color: #e6be00; 
+    transform: translateY(-1px);
+}
+
+
+#boton-siguiente {
+    background-color: #28a745; 
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    padding: 0.75rem 2rem;
+    font-size: clamp(0.9rem, 2vw, 1rem);
+    font-weight: bold;
+    cursor: pointer;
+    margin: 1rem auto;
+    display: block;
+    transition: all 0.3s ease;
+    box-shadow: 0 3px 8px rgba(40, 167, 69, 0.3);
+}
+
+#boton-siguiente:hover {
+    background-color: #218838;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(40, 167, 69, 0.4);
+}
+
+/* Estilos para opciones deshabilitadas */
+.opcion:disabled {
+    opacity: 0.6 !important;
+    cursor: not-allowed !important;
+    transform: none !important;
+}
+
+.opcion:disabled:hover {
+    background-color: #f8f8f8 !important;
+    transform: none !important;
+}
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 0.5rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: clamp(0.8rem, 1.5vw, 0.9rem);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flashcards {
+    display: flex;
+    justify-content: center;
+    gap: 2rem; 
+    margin-top: 2rem; 
+    max-width: 1000px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flashcard {
+    width: 300px;
+    height: 450px; 
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.flashcard:hover {
+    transform: scale(1.1);
+}
+
+.flashcard#flashcard-2000 {
+    background: url('https://m.media-amazon.com/images/M/MV5BMTZkMjBjNWMtZGI5OC00MGU0LTk4ZTItODg2NWM3NTVmNWQ4XkEyXkFqcGc@._V1_.jpg') center/cover no-repeat;
+}
+
+.flashcard#flashcard-2010 {
+    background: url('https://image.tmdb.org/t/p/original/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg') center/cover no-repeat;
+}
+
+.flashcard#flashcard-2020 {
+    background: url('https://pics.filmaffinity.com/conclave-496920745-large.jpg') center/cover no-repeat;
+}
+
+.flashcard .content {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    color: #ffd700; /* Dorado */
+    width: 100%;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+/* Estilos para las flashcards de preguntas */
+.pregunta-flashcard {
+    max-width: 600px;
+    margin: 2rem auto;
+    background: linear-gradient(135deg, #ffd700, #ffed4e);
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.pregunta-flashcard:hover {
+    transform: translateY(-5px);
+}
+
+.pregunta-content {
+    padding: 2rem;
+    color: #000000;
+}
+
+.pregunta-content h3 {
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.opciones-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.opciones-container button {
+    background-color: #f8f8f8;
+    color: #000000;
+    border: 2px solid #ffd700;
+    border-radius: 8px;
+    padding: 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 0;
+}
+
+.opciones-container button:hover {
+    background-color: #d2b300;
+    color: #000000;
+    transform: scale(1.02);
+}
+
+/* MEDIA QUERIES PARA RESPONSIVE DESIGN */
+
+/* Smartphones en orientación vertical (hasta 480px) */
+@media (max-width: 480px) {
+    header {
+        padding: 0.75rem;
+    }
+    
+    header h1 {
+        flex-direction: column;
+        gap: 0.5rem;
+        font-size: 1.3rem;
+    }
+    
+    header h1 svg {
+        width: 35px;
+        height: 35px;
+    }
+    
+    main {
+        padding: 1rem 0.5rem;
+    }
+    
+    .flashcards {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        margin: 2rem auto;
+        padding: 0 0.5rem;
+    }
+    
+    .flashcard {
+        height: 300px;
+    }
+    
+    #boton-siguiente {
+        padding: 0.75rem 1.5rem;
+        font-size: 0.9rem;
+        margin: 1rem 0.5rem;
+    }
+}
+
+/* Tablets y dispositivos medianos (481px - 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+    header h1 {
+        gap: 0.75rem;
+    }
+    
+    header h1 svg {
+        width: 45px;
+        height: 45px;
+    }
+    
+    .flashcards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1.5rem;
+        margin: 2.5rem auto;
+    }
+    
+    .flashcard {
+        width: 280px;
+        height: 350px;
+    }
+}
+
+/* Dispositivos grandes (más de 768px) */
+@media (min-width: 769px) {
+    header h1 svg {
+        width: 50px;
+        height: 50px;
+    }
+}
+}
