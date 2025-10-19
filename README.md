@@ -56,7 +56,7 @@ oscar-trivia/
 
 1. 🌐 Play Online
 Access the live version of the game hosted on Netlify:
-**[🎮 Play Oscar Trivia Game](https://your-netlify-link.netlify.app)**
+**https://goldenawardsquiz.netlify.app/**
 
 
 2. **Open in browser**:
