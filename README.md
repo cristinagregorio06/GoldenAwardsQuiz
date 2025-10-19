@@ -90,8 +90,6 @@ Access the live version of the game hosted on Netlify:
 - [ ] Add timer functionality for questions
 - [ ] Include images and media in questions
 - [ ] Add sound effects and background music
-- [ ] Create difficulty levels (Easy, Medium, Hard)
-- [ ] Add social sharing features
 
 
 ## Author
