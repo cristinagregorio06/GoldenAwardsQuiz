@@ -1,10 +1,10 @@
-# 🏆 Oscar Trivia Game
+# 🏆 Golden Awards Trivia Game
 
-An interactive web-based trivia game about the Academy Awards, featuring questions from different decades and a cinema-themed design.
+Interactive cinema quiz web app featuring a cinema-themed design, decade-based quiz categories, and a random questions mode. Built with HTML, CSS, and JavaScript for a client-side web development course. Tests knowledge of movies, actors, and major cinema awards
 
 ## 📖 Overview
 
-This project is an educational trivia application focused on Oscar awards, movies, actors, and actresses. It allows users to test their knowledge through decade-specific categories or random questions mode.
+This project is an educational trivia application focused on major cinema awards, movies, actors, and actresses. It allows users to test their knowledge through decade-specific categories or random questions mode.
 
 ## ✨ Features
 
@@ -21,7 +21,7 @@ The application features:
 - Welcome screen with decade selection
 - Interactive question cards with multiple choice answers
 - Visual feedback for correct/incorrect responses
-- Cinema background theme with golden Oscar statue icon
+- Cinema background theme with golden award statue icon
 
 ## 🛠️ Technologies Used
 
@@ -58,9 +58,6 @@ oscar-trivia/
 Access the live version of the game hosted on Netlify:
 **[🎮 Play Oscar Trivia Game](https://your-netlify-link.netlify.app)**
 
-### 💻 Local Development
-If you want to run the project locally or contribute:
-
 
 2. **Open in browser**:
    - Simply open `index.html` in any modern web browser
@@ -70,7 +67,7 @@ If you want to run the project locally or contribute:
 
 ### Visual Design
 - Cinema-themed background imagery
-- Golden color scheme inspired by Oscar awards
+- Golden color scheme inspired by the major cinema awards
 - Smooth hover animations and transitions
 - Responsive grid layout for different screen sizes
 
@@ -97,16 +94,9 @@ If you want to run the project locally or contribute:
 - [ ] Add social sharing features
 
 
-## 👨‍💻 Author
+## Author
 
 Created as part of the Client-Side Web Development course.
-
-## 🙏 Acknowledgments
-
-- Academy of Motion Picture Arts and Sciences for inspiration
-- Cinema background images and design elements
-- Educational purposes and learning objectives
-
 
 
 **Note**: This project is for educational purposes as part of a web development course. All movie and award information is used for educational trivia purposes.
